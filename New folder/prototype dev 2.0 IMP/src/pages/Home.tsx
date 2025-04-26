@@ -48,7 +48,7 @@ const Home: React.FC<{ isLoggedIn: boolean }> = ({ isLoggedIn }) => {
   };
   
   const handleFindParking = () => {
-    window.location.href = 'http://localhost:8000/index_new.html';
+    window.location.href = 'http://localhost:8000/index.html';
   };
   
   const handleRegisterClick = () => {

@@ -19,6 +19,38 @@ This README provides instructions for setting up and running the project.
 
 ### Step 2: Set up the Present Development Environment
 
+# How to Run
+## Setp the enviroment
+```
+python -m venv env
+# (from your project root)
+. .\env\Scripts\Activate.ps1
+```
+
+install requirements
+```
+pip install -r requirements.txt
+```
+
+## Run Original Script:
+python original_script.py
+
+## Run API:
+python api.py
+
+## Serve Website:
+cd website
+python -m http.server 8000
+
+## Open Browser:
+http://localhost:8000/
+
+
+## Live Video Links:
+Live 1 - https://youtu.be/_1PfF1v9GJc
+Live 2 - https://youtu.be/mwN6l3O1MNI
+Live 3 - https://youtu.be/EPKWu223XEg
+
 1. Navigate to the 'Present Developement' folder
 2. Follow the instructions in the readme.md file located in that folder:
    - To run the API: `python api.py`

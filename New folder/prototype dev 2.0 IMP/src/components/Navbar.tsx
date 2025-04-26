@@ -145,12 +145,11 @@ const Navbar: React.FC<NavbarProps> = ({ isLoggedIn, setIsLoggedIn }) => {
             )}
             
             <button 
-              onClick={() => window.location.href = 'http://localhost:8000/index_new.html'}
+              onClick={() => window.location.href = 'http://localhost:8000/index.html'}
               className={`link-hover ${location.pathname === '/reserve' ? 'link-active' : ''}`}
             >
-              Reserve Parking
+              View Live Parking
             </button>
-            
             <Link 
               to="/contact" 
               className={`link-hover ${location.pathname === '/contact' ? 'link-active' : ''}`}

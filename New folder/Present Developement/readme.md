@@ -5,6 +5,12 @@ python -m venv env
 # (from your project root)
 . .\env\Scripts\Activate.ps1
 ```
+
+install requirements
+```
+pip install -r requirements.txt
+```
+
 ## Run Original Script:
 python original_script.py
 
