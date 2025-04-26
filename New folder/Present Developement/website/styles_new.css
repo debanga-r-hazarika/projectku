@@ -1,0 +1,416 @@
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background: #f8fbfd;
+    margin: 0;
+    color: #17294c;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 16px 4.5rem;
+    /* No shadow or border for a flat look */
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.navbar .logo {
+    margin-right: 1.2rem;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 0;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.navbar-buttons .nav-links {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.nav-links a {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    padding: 0 11px;
+    font-size: 14px !important;
+    font-family: 'Inter', 'Arial', 'Helvetica Neue', Helvetica, ui-sans-serif, system-ui, sans-serif;
+    color: #17294c;
+    font-weight: 450 !important;
+    background: transparent;
+    border: none;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.navbar-buttons .nav-actions {
+    margin-left: 1.5rem;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.logo img {
+    height: 38px;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.brand {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #01BF63;
+    margin-left: 0.5rem;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.nav-links {
+    display: flex;
+    gap: 2.2rem;
+    /* margin-left: auto; */
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.nav-links a {
+    color: #222e3a;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+    border-radius: 2px;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.nav-links a.active {
+    color: #222e3a;
+    text-decoration: underline;
+    text-decoration-color: #2195f3eb;
+    text-decoration-thickness: 1.4px;
+    text-underline-offset: 3px;
+}
+.nav-links a:hover {
+    color: #2196F3;
+    text-decoration: underline;
+    text-decoration-color: #2196F3;
+    text-decoration-thickness: 1.4px;
+    padding: 0 3px;
+    text-underline-offset: 3px;
+}
+.nav-actions {
+    display: flex;
+    gap: 0rem;
+    /* margin-left: auto; */
+    margin-left: 1.2rem;
+    margin-right: 0.2rem;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.btn {
+    font-size: 0.90rem;
+    border-radius: px;
+    border: none;
+    padding: 0.4rem 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.btn-logout {
+    border: 1.5px solid #e1e7ef;
+    background: #ffffff;
+    color: #222e3a;;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-weight: 500;
+    margin: 0 0 0 -13px;
+    cursor: pointer;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.18s, color 0.18s;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.btn-logout:hover, .btn-logout:focus {
+    background: #f4f8fb;
+    color: #1565c0;
+    border-color: #b7c6d9;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+
+.main-content {
+    padding: 2.5rem 0 0 0;
+    min-height: 100vh;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.dashboard-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.dashboard-title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    color: #17294c;
+    text-align: left;
+    padding-left: 0;
+    text-shadow: none;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.dashboard-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: none;
+    padding: 2.5rem 2.5rem 2rem 2.5rem;
+    width: 95%;
+    max-width: 900px;
+    margin-bottom: 2rem;
+    text-shadow: none;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.dashboard-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #17294c;
+    margin-bottom: 1.6rem;
+    text-align: center;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 2.2rem;
+    margin-bottom: 2.5rem;
+    align-items: stretch;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.stat-box {
+    background: #f5f8fa;
+    border-radius: 16px;
+
+    padding: 1.4rem 1.6rem 1.2rem 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 120px;
+    width: 160px;
+    height: 110px;
+    margin: 0 0.5rem;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    text-shadow: none;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+
+.stat-box.total {
+    background: linear-gradient(135deg, #0ca7e8 80%, #3ed0ff 100%);
+    color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+
+ }
+.stat-box.occupied {
+    background: linear-gradient(135deg, #f46a6a 80%, #ffb6b6 100%);
+    color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+
+ }
+.stat-box.free {
+    background: linear-gradient(135deg, #2bd47d 80%, #a8f5c9 100%);
+    color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+
+ }
+.stat-label {
+    font-size: 1.09rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-shadow: none;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.stat-value {
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin-top: 0.2rem;
+    text-shadow: none;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+
+.parking-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 1.1rem 1.6rem;
+    margin-top: 2.5rem;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.parking-spot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 62px;
+    border-radius: 13px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    box-shadow: none;
+
+    background: #f5f8fa;
+    color: #17294c;
+    margin: 0;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+
+.parking-spot.occupied {
+    background: linear-gradient(135deg, #f46a6a 80%, #ffb6b6 100%);
+    color: #fff;
+    box-shadow: none;
+
+ }
+.parking-spot.free {
+    background: linear-gradient(135deg, #2bd47d 80%, #a8f5c9 100%);
+    color: #fff;
+    box-shadow: none;
+
+ }
+.info-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.info-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: none;
+    padding: 2rem 2.5rem;
+    max-width: 900px;
+    width: 95%;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.info-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #17294c;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+.info-card p {
+    font-size: 1rem;
+    color: #17294c;
+    line-height: 1.6;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+@media (max-width: 900px) {
+    .dashboard-card, .info-card {
+        padding: 1.5rem 1rem;
+        text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+    .stats-row {
+        gap: 1.2rem;
+        text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+    .main-content {
+        padding: 1.2rem 0 0 0;
+        text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+@media (max-width: 600px) {
+    .dashboard-title {
+        font-size: 1.3rem;
+        text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+    .dashboard-card, .info-card {
+        padding: 0.7rem 0.2rem;
+        border-radius: 10px;
+        text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+    .stat-box {
+    background: #f5f8fa;
+    border-radius: 16px;
+
+    padding: 1.4rem 1.6rem 1.2rem 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 120px;
+    width: 160px;
+    height: 110px;
+    margin: 0 0.5rem;
+    transition: box-shadow 0.18s, transform 0.18s;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+        min-width: 80px;
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+        text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+    .parking-grid {
+        gap: 0.2rem;
+        text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
